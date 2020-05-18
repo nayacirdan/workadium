@@ -1,0 +1,22 @@
+
+/*layout*/
+
+@import "layout/base.css";
+@import "layout/fonts.css";
+@import "layout/normalise.css";
+
+/*components*/
+@import "components/header.css";
+@import "components/nav.css";
+@import "components/partners.css";
+@import "components/footer.css";
+@import "components/socials.css";
+@import "components/breadcrumbs.css";
+@import "components/form.css";
+
+/*pages*/
+
+@import "pages/intro.css";
+@import "pages/about.css";
+@import "pages/comments.css";
+@import "pages/prices.css";

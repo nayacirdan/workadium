@@ -1,0 +1,81 @@
+.header{
+    padding: 13px 0;
+    background-color: #27273e;
+}
+
+.header__logo, .header__info{
+  display: inline-block;  
+    float: left;
+    width:50%;
+}
+.header__logo{
+    vertical-align: middle
+}
+.header__info{
+    text-align: right;
+    margin-top: 6px;
+    vertical-align: middle
+}
+.header__timetable a{
+    font-family: 'Open Sans', 'Arial', sans-serif;
+    font-weight: 700;
+    color:#5dd1f8;
+    opacity: .7;
+    font-size: 16px;
+}
+
+.header__contacts a {
+    text-decoration: none;
+    color:#fff;
+    font-size:22px;
+}
+.header__timetable {
+    position: relative;
+}
+.header__timetable a:hover {
+    color:#ec1e79;
+    font-weight: 900;
+}
+
+.header__timetable:hover .contacts__dropdown {
+  display: block;
+}
+.contacts__dropdown {
+  padding: 10px 15px;
+  box-shadow: 0px 0px 10px 0px rgba(23, 59, 117, 0.55);
+  background: #fff;
+  border-radius: 5px 0 5px 5px;
+  text-align: left;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  z-index: 1000;
+  margin-top: 13px;
+  display: none;
+}
+
+
+.contacts__dropdown::before {
+  content: "";
+  display: block;
+  border: 11px solid transparent;
+  border-top-width: 0;
+  border-bottom-color: #fff;
+  position: absolute;
+  top: -11px;
+  right: 0;
+}
+
+
+.contacts__time {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ec1e79;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contacts__lunch {
+  font-size: 14px;
+  color: #221f1f;
+}

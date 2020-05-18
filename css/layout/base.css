@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+  overflow: hidden;
+  min-width: 1100px;
+  min-height: 100%;
+}
+.wrapper::after {
+    display: block;
+    content: '';
+    height:100px;
+}
+html {
+    height:100%;
+}
+body {
+    font-family: 'Gothampro', 'Arial', sans-serif;
+    font-size: 18px;
+    height:100%;
+}
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+ul {
+    list-style: none;
+    padding:0;
+    margin:0;
+   } 
+    .container {
+    margin:0 auto;
+    width:1060px;
+}
+.title {
+    font-size: 48px;
+    font-weight: bold;
+}
+

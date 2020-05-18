@@ -1,0 +1,56 @@
+.nav {
+    width:180px;
+    float: left;
+    margin-top:20px;
+}
+.nav__item {
+    padding-bottom: 25px;
+}
+.nav__link {
+    text-decoration: none;
+    color:#ec1e79;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+.nav__link.nav__active {
+    color:#221f1f;
+}
+.nav__link:hover {
+    color:#221f1f;
+    transition: color 0.2s;
+}
+.nav__icon {
+    width:20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.nav__text {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+}
+.nav__icon_triangle {
+    background-image: url('../../img/nav/nav-sprite.png');
+    background-position: 0 0;
+}
+
+.nav__icon_wallet {
+     background-image: url('../../img/nav/nav-sprite.png');
+    background-position: -100px 0;
+}
+.nav__icon_star {
+   background-image: url('../../img/nav/nav-sprite.png');
+    background-position: -200px 0;  
+}
+
+
+.nav__link:hover .nav__icon {
+  background-position-y: -100px;
+}
+.nav__icon.nav__icon_active {
+   background-position-y: -100px; 
+}

@@ -1,0 +1,16 @@
+.partners__items {
+    display: inline-block;
+    float: left;
+    vertical-align: middle;
+    width:160px;
+    padding:20px 0px;
+    margin-right: 125px;
+    transition: 1s;
+}
+.partners__link {
+    filter: grayscale(1);
+}
+.partners__link:hover {
+    filter: grayscale(0);
+    transition: 0.2s;
+}

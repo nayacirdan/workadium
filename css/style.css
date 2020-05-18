@@ -1,0 +1,224 @@
+@font-face {
+    font-family: 'Gothampro-light';
+    src: url('fonts/gothampro-light-webfont.woff2') format('woff2'),
+         url('fonts/gothampro-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: optional;
+}
+@font-face {
+    font-family: 'Gothampro-lightitalic';
+    src: url('fonts/gothampro-lightitalic-webfont.woff2') format('woff2'),
+         url('fonts/gothampro-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: optional;
+}
+@font-face {
+    font-family: 'Gothampro-bold';
+    src: url('fonts/gothampro-bold-webfont.woff2') format('woff2'),
+         url('fonts/gothampro-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+  overflow: hidden;
+  min-width: 1100px;
+  min-height: 100%;
+}
+body {
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    font-family: 'Gothampro-light', 'Arial', sans-serif;
+    font-size: 18px;
+}
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+ul {
+    list-style: none;
+}
+.header, .footer{
+padding: 0 13px;
+    background-color: #27273e;
+}
+
+.header__logo, .header__info{
+  display: inline-block;  
+    float: left;
+    width:50%;
+}
+.header__logo{
+    vertical-align: middle
+}
+.header__info{
+    text-align: right;
+    margin-top: 6px;
+    vertical-align: middle
+}
+.header__timetable a{
+    font-family: 'Open Sans', 'Arial', sans-serif;
+    font-weight: 700;
+    color:#5dd1f8;
+    opacity: .7;
+    font-size: 14px;
+    text-decoration:;
+}
+.container {
+    margin:0 auto;
+    width:1060px;
+}
+.header__info a {
+    text-decoration: none;
+    color:#fff;
+}
+.nav {
+    width:180px;
+    float: left;
+}
+.nav a {
+    text-decoration: none;
+    color:#ec1e79;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+.nav__item--active{
+    color:#221f1f;
+}
+.nav__item--main::before {
+content: '';
+width:20px;
+height: 20px;
+background-image: url(img/nav%2520icons/main_icon.png);
+}
+.nav__item--tariffs::before {
+content: '';
+width:20px;
+height: 20px;
+background-image: url(img/nav%2520icons/wallet_icon.png);
+}
+.nav__item--reviews::before {
+content: '';
+width:20px;
+height: 20px;
+background-image: url(img/nav%2520icons/feed_icon.png);
+}
+.about{
+    width:880px;
+    float: left;
+}
+
+.about__header {
+    width: 879px;
+    height: 354px;
+    background-image:  url('img/about-img.jpg');
+    background-repeat: no-repeat;
+   
+}
+.about__header {
+    position: relative;
+}
+.about__title {
+    color:#fff;
+    text-transform: uppercase;
+    position: absolute;
+    top:160px;
+    left:70px;
+}
+.about__left {
+    width:700px;
+}
+.about__content {
+    padding: 30px 0;
+}
+
+.about__sale {
+    background-color: #27273e;
+    color:#FFF;
+    padding: 20px 30px;
+    margin-bottom: 35px;
+}
+.about__sale b{
+    color:#ec1e79;
+    
+}
+
+.about__content li::before {
+    content: '• ';
+    color:#ec1e79;
+}
+.about__partners-title{
+    margin-bottom:35px;
+    padding-top: 35px;
+}
+.partners__items {
+    filter: grayscale(1);
+    display: inline-block;
+    float: left;
+    vertical-align: middle;
+    width:160px;
+    padding:25px 20px;
+    margin-right: 70px;
+}
+.footer {
+    color: #fff;
+    font-size: 14px;
+}
+/*
+.footer__left, .footer__center, .footer__right {
+    width:33,3%;
+    display: inline-block;
+}
+.footer__copyright, 
+.footer__logo, 
+.footer__social {
+    display: inline-block;
+}
+
+.footer__left {
+    float: left;
+}
+.footer__center {text-align: center;}
+.footer__right {text-align: right;}
+
+.footer__copyright {
+    vertical-align: middle;
+    width:270px;
+}
+.footer__logo {
+    vertical-align: middle;
+}
+.footer__social {
+    vertical-align: middle;
+    width:170px;
+}
+.footer__social-link {
+    width:20px;
+    height:20px;
+    display: inline-block;
+    float: left;
+}
+
+.footer__social-link--vk {
+    background-image: url ('img/social%2520icons/Vector%20Smart%20Object.png');
+}
+.footer__social-link--fb {
+    background-image: url ('img/social%2520icons/Vector%20Smart%20Object-2.png');
+}
+.footer__social-link--gpus {
+    background-image: url ('img/social%2520icons/Vector%20Smart%20Object-3.png');
+}
+.footer__social-link--tw {
+    background-image: url ('img/social%2520icons/Vector%20Smart%20Object-4.png');
+}
+.footer__social-link--mail {
+    background-image: url ('img/social%2520icons/Vector%20Smart%20Object-5.png');
+}*/
